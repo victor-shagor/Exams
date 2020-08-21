@@ -1,0 +1,192 @@
+html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+footer {
+  background: #eee;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+}
+
+.cat-wrapper {
+  background: #f7f7f7;
+  display: flex;
+  padding: 10px;
+  width: 25rem;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.cat {
+  cursor: pointer;
+  padding: 7px;
+}
+
+.cat.show {
+  background: white;
+  border-radius: 8px;
+}
+
+.technical {
+  display: none;
+}
+
+.technical.show {
+  display: block;
+}
+
+.aptitude {
+  display: none;
+}
+
+.aptitude.show {
+  display: block;
+}
+
+.logical {
+  display: none;
+}
+
+.logical.show {
+  display: block;
+}
+
+.que-wrapper {
+  margin-bottom: 10rem;
+}
+
+.wrapper {
+  max-width: 60rem;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.card-que {
+  width: 25rem;
+  background: #f7f7f7;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* create pizza form */
+
+.heading {
+  font-weight: bold;
+  margin-left: 8rem;
+}
+
+.create-question label,
+.create-question select {
+  display: block;
+}
+
+.create-question label {
+  margin-top: 20px;
+}
+
+.create-question input[type=text] {
+  width: 27rem;
+  margin-bottom: 3px;
+}
+
+.create-question select {
+  width: 27rem;
+}
+
+.create-question input[type=submit] {
+  padding: 8px 20px;
+  color: #fff;
+  border: 0;
+  margin-top: 20px;
+  margin-left: 9.5rem;
+}
+
+.action {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.action button {
+  background: none;
+  border: none;
+}
+
+.option-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.single-que {
+  display: flex;
+  align-items: center;
+}
+
+.single-que label {
+  margin: 0;
+  display: inline-block;
+  padding-right: 10px !important;
+}
+
+@media (max-width: 961px) {
+  .card-que {
+    width: 15rem;
+  }
+
+  .cat-wrapper {
+    width: 15rem;
+  }
+
+  .create-question input[type=text] {
+    width: 17rem;
+    margin-bottom: 3px;
+  }
+
+  .create-question select {
+    width: 17rem;
+  }
+}
+
